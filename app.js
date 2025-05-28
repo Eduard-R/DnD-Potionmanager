@@ -1,11 +1,11 @@
 // Default potions
         const defaultPotions = [
-            { id: 1, name: "Heiltrank", color: "#e74c3c", quantity: 3, icon: "❤️" },
-            { id: 2, name: "Manatrank", color: "#3498db", quantity: 2, icon: "✨" },
-            { id: 3, name: "Gifttrank", color: "#2ecc71", quantity: 1, icon: "☠️" },
-            { id: 4, name: "Stärketrank", color: "#f1c40f", quantity: 2, icon: "💪" },
-            { id: 5, name: "Unsichtbarkeitstrank", color: "#9b59b6", quantity: 1, icon: "👁️" },
-            { id: 6, name: "Feuerwiderstandstrank", color: "#e67e22", quantity: 2, icon: "🔥" }
+            // { id: 1, name: "Heiltrank", color: "#e74c3c", quantity: 3, icon: "❤️" },
+            // { id: 2, name: "Manatrank", color: "#3498db", quantity: 2, icon: "✨" },
+            // { id: 3, name: "Gifttrank", color: "#2ecc71", quantity: 1, icon: "☠️" },
+            // { id: 4, name: "Stärketrank", color: "#f1c40f", quantity: 2, icon: "💪" },
+            // { id: 5, name: "Unsichtbarkeitstrank", color: "#9b59b6", quantity: 1, icon: "👁️" },
+            // { id: 6, name: "Feuerwiderstandstrank", color: "#e67e22", quantity: 2, icon: "🔥" }
         ];
         
         // Load potions from local storage or use defaults
