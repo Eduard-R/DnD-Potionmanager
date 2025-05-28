@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+    <title>D&D Trank-Verwalter</title>
+    </head>
+<body>
+    <h1>🧪 D&D Trank-Verwalter 🧪</h1>
+    
+    <div class="potion-grid" id="potion-container">
+        <!-- Potion cards will be generated here -->
+    </div>
+    
+    <div class="add-potion">
+        <h2>Neuen Trank hinzufügen</h2>
+        <div class="form-group">
+            <label for="potion-name">Trank-Name:</label>
+            <input type="text" id="potion-name" placeholder="z.B. Heiltrank">
+        </div>
+        
+        <div class="form-group">
+            <label for="potion-color">Trank-Farbe:</label>
+            <div class="potion-colors" id="potion-colors">
+                <div class="color-option selected" style="background-color: #e74c3c;" data-color="#e74c3c"></div>
+                <div class="color-option" style="background-color: #3498db;" data-color="#3498db"></div>
+                <div class="color-option" style="background-color: #2ecc71;" data-color="#2ecc71"></div>
+                <div class="color-option" style="background-color: #f1c40f;" data-color="#f1c40f"></div>
+                <div class="color-option" style="background-color: #9b59b6;" data-color="#9b59b6"></div>
+                <div class="color-option" style="background-color: #1abc9c;" data-color="#1abc9c"></div>
+                <div class="color-option" style="background-color: #e67e22;" data-color="#e67e22"></div>
+                <div class="color-option" style="background-color: #34495e;" data-color="#34495e"></div>
+            </div>
+        </div>
+        
+        <div class="form-group">
+            <label for="potion-icon">Trank-Symbol:</label>
+            <div class="potion-icons" id="potion-icons" style="display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 15px;">
+                <button type="button" class="icon-option selected" data-icon="🧪">🧪</button>
+                <button type="button" class="icon-option" data-icon="❤️">❤️</button>
+                <button type="button" class="icon-option" data-icon="✨">✨</button>
+                <button type="button" class="icon-option" data-icon="☠️">☠️</button>
+                <button type="button" class="icon-option" data-icon="💪">💪</button>
+                <button type="button" class="icon-option" data-icon="👁️">👁️</button>
+                <button type="button" class="icon-option" data-icon="🔥">🔥</button>
+                <button type="button" class="icon-option" data-icon="❄️">❄️</button>
+                <button type="button" class="icon-option" data-icon="⚡">⚡</button>
+                <button type="button" class="icon-option" data-icon="🛡️">🛡️</button>
+                <button type="button" class="icon-option" data-icon="🌙">🌙</button>
+                <button type="button" class="icon-option" data-icon="☀️">☀️</button>
+                <button type="button" class="icon-option" data-icon="🔮">🔮</button>
+                <button type="button" class="icon-option" data-icon="⚔️">⚔️</button>
+                <button type="button" class="icon-option" data-icon="🏃">🏃</button>
+                <button type="button" class="icon-option" data-icon="🦅">🦅</button>
+            </div>
+        </div>
+        
+        <div class="form-group">
+            <label for="potion-quantity">Anzahl:</label>
+            <input type="number" id="potion-quantity" min="1" value="1">
+        </div>
+        
+        <div class="form-buttons">
+            <button id="add-potion-button" class="save-button">Trank hinzufügen</button>
+        </div>
+    </div>
+    </body>
+</html>

@@ -1,0 +1,191 @@
+body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0e6d2;
+            color: #32281e;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        h1 {
+            text-align: center;
+            color: #6b4e35;
+            margin-bottom: 30px;
+            text-shadow: 1px 1px 2px #d6b692;
+        }
+        
+        .potion-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 20px;
+        }
+        
+        .potion-card {
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 15px;
+            border: 1px solid #d6b692;
+            transition: transform 0.2s ease;
+        }
+        
+        .potion-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .potion-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        
+        .potion-icon {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 10px;
+            font-size: 24px;
+        }
+        
+        .potion-name {
+            font-weight: bold;
+            font-size: 18px;
+            margin: 0;
+        }
+        
+        .potion-count {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        
+        .potion-count span {
+            font-size: 24px;
+            font-weight: bold;
+            margin: 0 10px;
+        }
+        
+        button {
+            background-color: #6b4e35;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 8px 12px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: background-color 0.2s ease;
+        }
+        
+        button:hover {
+            background-color: #8a6343;
+        }
+        
+        button:disabled {
+            background-color: #cccccc;
+            cursor: not-allowed;
+        }
+        
+        .use-button {
+            background-color: #a83232;
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+        }
+        
+        .use-button:hover {
+            background-color: #c04040;
+        }
+        
+        .potion-colors {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5px;
+            margin-top: 30px;
+        }
+        
+        .color-option {
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+            cursor: pointer;
+            border: 2px solid transparent;
+        }
+        
+        .color-option.selected {
+            border: 2px solid #000;
+        }
+        
+        .add-potion {
+            margin-top: 30px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            border: 1px solid #d6b692;
+        }
+        
+        .add-potion h2 {
+            margin-top: 0;
+            color: #6b4e35;
+        }
+        
+        .form-group {
+            margin-bottom: 15px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        
+        input, select {
+            width: 100%;
+            padding: 8px;
+            border-radius: 5px;
+            border: 1px solid #d6b692;
+        }
+        
+        .form-buttons {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        
+        .save-button {
+            background-color: #4b7f52;
+        }
+        
+        .save-button:hover {
+            background-color: #5c9862;
+        }
+        
+        .cancel-button {
+            background-color: #a83232;
+        }
+        
+        .icon-option {
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            background-color: #f0e6d2;
+            border: 2px solid transparent;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        
+        .icon-option:hover {
+            background-color: #d6b692;
+        }
+        
+        .icon-option.selected {
+            border-color: #6b4e35;
+            background-color: #d6b692;
+        }
