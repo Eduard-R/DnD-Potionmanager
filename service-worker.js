@@ -5,7 +5,9 @@ const URLS_TO_CACHE = [
   '/styles.css',
   '/app.js',
   '/icons/icon.png',
-  '/icons/favicon.png'
+  '/icons/favicon.png',
+  '/img/Background.png',
+  '/img/vintage-grunge.jpg'
 ];
 
 // Installieren
