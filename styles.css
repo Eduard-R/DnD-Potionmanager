@@ -1,7 +1,10 @@
 body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #f0e6d2;
-            color: #32281e;
+            background-image: url('img/Background.png');
+            background-size: cover;
+            background-position: inherit;
+            background-repeat: no-repeat;
+            color: #ffffff;
             max-width: 900px;
             margin: 0 auto;
             padding: 20px;
@@ -9,7 +12,7 @@ body {
         
         h1 {
             text-align: center;
-            color: #6b4e35;
+            color: #eb760f;
             margin-bottom: 30px;
             text-shadow: 1px 1px 2px #d6b692;
         }
@@ -21,11 +24,14 @@ body {
         }
         
         .potion-card {
-            background-color: #ffffff;
+            background-image: url('img/vintage-grunge.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             padding: 15px;
-            border: 1px solid #d6b692;
+            border: 1px solid #000000;
             transition: transform 0.2s ease;
         }
         
@@ -116,16 +122,19 @@ body {
         
         .add-potion {
             margin-top: 30px;
-            background-color: #ffffff;
+            background-image: url('img/vintage-grunge.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             padding: 20px;
-            border: 1px solid #d6b692;
+            border: 1px solid #000000;
         }
         
         .add-potion h2 {
             margin-top: 0;
-            color: #6b4e35;
+            color: #ffffff;
         }
         
         .form-group {
