@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/icons/favicon.png?v=2" type="image/png">
+    <link rel="manifest" href="manifest.json" />
     <link rel="stylesheet" href="styles.css">
     <script src="app.js" defer></script>
     <title>D&D Trank-Verwalter</title>
@@ -66,5 +68,12 @@
             <button id="add-potion-button" class="save-button">Trank hinzufügen</button>
         </div>
     </div>
+    <script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('service-worker.js')
+      .then(() => console.log('Service Worker registriert'))
+      .catch((error) => console.error('Service Worker Fehler:', error));
+  }
+</script>
     </body>
 </html>
